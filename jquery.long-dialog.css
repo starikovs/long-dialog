@@ -1,0 +1,38 @@
+html, 
+body,
+.main {
+    height: 100%;
+}
+
+body {
+    background: #aaf500;
+    color: #444;
+    display: block;
+    margin: 0;   
+    overflow: hidden;
+    position: relative;
+}
+
+.main {
+    overflow: auto;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.dialog { 
+    background: #fff;
+    margin: 100px auto 10px auto;
+    padding: 5px;
+    position: relative;
+    width: 300px;
+}
