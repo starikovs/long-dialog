@@ -1,0 +1,25 @@
+{
+    "name": "long-dialog",
+    "title": "long-dialog jQuery plugin",
+    "description": "jQuery plugin that makes long modal dialog. The dialog may be higher than the viewport and it uses the main scrollbar.",
+    "keywords": ["dialog", "modal"],
+    "version": "1.0.0",
+    "author": {
+        "name": "Vacheslav Starikov",
+        "url": "http://starikovs.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/starikovs/alt-checkbox/master/MIT-LICENSE.txt"
+        }
+    ],
+    "homepage": "http://long-dialog.starikovs.com",
+    "demo": "http://long-dialog.starikovs.com",
+    "download": "https://github.com/starikovs/long-dialog/archive/master.zip",
+    "docs": "http://long-dialog.starikovs.com",
+    "bugs": "https://github.com/starikovs/long-dialog/issues",
+    "dependencies": {
+        "jquery": ">=2.0.3"
+    }
+}
