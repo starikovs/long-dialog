@@ -5,8 +5,6 @@ body,
 }
 
 body {
-    background: #aaf500;
-    color: #444;
     display: block;
     margin: 0;   
     overflow: hidden;
