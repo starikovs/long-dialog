@@ -1,7 +1,7 @@
 (function ($) {
     $.fn.longDialog = function (options) {
         var openButton = options.openButton,
-            dialog = options.dialog;
+            dialog = $(this);
         
         openButton.click(function (e) {
             dialog.fadeIn();
@@ -17,3 +17,4 @@
         });        
     };
 })(jQuery);
+
