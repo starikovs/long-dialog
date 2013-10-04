@@ -4,17 +4,22 @@
             dialog = $(this);
         
         openButton.click(function (e) {
-            dialog.fadeIn();
+            dialog.fadeIn("fast", function () {
+                $(this).attr("tabindex", "0").focus();
+            });
             e.preventDefault();
         });
         
         dialog.click(function () {
-            $(this).fadeOut();
+            $(this).fadeOut("fast", function () {
+                $(this).attr("tabindex", "");
+            });
         });
         
         dialog.find(".dialog").click(function (e) {
             e.stopPropagation();
-        });        
+        });
     };
 })(jQuery);
+
 
