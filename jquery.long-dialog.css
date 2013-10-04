@@ -21,6 +21,7 @@ body {
     display: none;
     height: 100%;
     left: 0;
+    outline: none;
     overflow: auto;
     position: fixed;
     top: 0;
