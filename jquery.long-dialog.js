@@ -5,7 +5,7 @@
         
         openButton.click(function (e) {
             dialog.fadeIn("fast", function () {
-                $(this).attr("tabindex", "0").focus();
+                $(this).attr("tabindex", "-1").focus();
             });
             e.preventDefault();
         });
