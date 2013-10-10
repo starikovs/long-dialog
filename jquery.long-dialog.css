@@ -35,9 +35,3 @@ body {
     position: relative;
     width: 300px;
 }
-
-.long-dialog-test {
-    position: absolute;
-    visibility: hidden;
-    width: 100%;
-}
