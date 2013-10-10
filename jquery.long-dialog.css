@@ -1,31 +1,31 @@
 html, 
-body,
-.main {
-    height: 100%;
-}
-
 body {
     display: block;
-    margin: 0;   
-    overflow: hidden;
+    height: 100%;
     position: relative;
 }
 
-.main {
+body {
+    margin: 0;   
     overflow: auto;
+}
+
+.main {
+    width: 100%;
 }
 
 .overlay {
     background: rgba(0, 0, 0, .5);
+    bottom: 0;
     box-sizing: border-box;
     display: none;
     height: 100%;
     left: 0;
     outline: none;
     overflow: auto;
-    position: fixed;
+    position: absolute;
+    right: 0;
     top: 0;
-    width: 100%;
 }
 
 .dialog { 
@@ -34,4 +34,10 @@ body {
     padding: 5px;
     position: relative;
     width: 300px;
+}
+
+.long-dialog-test {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
 }
