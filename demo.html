@@ -19,30 +19,30 @@
             width: 300px;
         }
     </style>
-	
-	<script>
-		jQuery(function ($) {
-			$(".overlay").longDialog({
-				openButton: $(".open-dialog")
-			});
-			
-			
-			$("p").each(function () {
-				var parent = $(this).parent(), 
-					i = 15;
-				
-				while (i--) {
-					parent.append($(this).clone());
-				}
-			});
-			
-		});
-	</script>
+    
+    <script>
+        jQuery(function ($) {
+            $(".overlay").longDialog({
+                openButton: $(".open-dialog")
+            });
+            
+            
+            $("p").each(function () {
+                var parent = $(this).parent(), 
+                    i = 15;
+                
+                while (i--) {
+                    parent.append($(this).clone());
+                }
+            });
+            
+        });
+    </script>
 
 </head>
 <body>
 
-<div class="overlay">
+<div class="overlay" id="dialog-1">
     <div class="dialog">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dicta error similique omnis facere libero minus voluptates recusandae aspernatur molestiae maiores voluptate possimus ducimus quas totam nesciunt eius dolores minima.</p>
     </div>
@@ -53,7 +53,7 @@
     <div class="sheet">
         <a href="#" class="open-dialog">Open dialog</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dicta error similique omnis facere libero minus voluptates recusandae aspernatur molestiae maiores voluptate possimus ducimus quas totam nesciunt eius dolores minima.</p>
-	</div>
+    </div>
 </div>
 
 
