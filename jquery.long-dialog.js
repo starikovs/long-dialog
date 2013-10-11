@@ -14,7 +14,7 @@
                 hst = html.scrollTop();
             dialog.css("top", bst !== 0 ? bst + "px" : (hst !== 0 ? hst + "px" : ""));
             dialog.fadeIn("fast", function () {
-                //$(this).attr("tabindex", "-1").focus();
+                $(this).attr("tabindex", "-1").focus();
             });
             e.preventDefault();
         });
@@ -24,7 +24,7 @@
                 body.css("overflow", "");
                 main.css("width", "");
                 dialog.css("top", "");
-                //$(this).attr("tabindex", "");
+                $(this).attr("tabindex", "");
             });
         });
         
