@@ -30,8 +30,8 @@ body {
 
 .dialog { 
     background: #fff;
-    margin: 100px auto 10px auto;
-    padding: 5px;
+    margin: 20px auto;
+    padding: 20px;
     position: relative;
-    width: 300px;
+    width: 600px;
 }
