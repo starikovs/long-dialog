@@ -2,7 +2,7 @@
     $.fn.longDialog = function (options) {
         var openButton = options.openButton,
             dialog = $(this),
-            main = $(".main"),
+            main = options.mainContainer,
             body = $("body"),
             html = $("html");
 
