@@ -23,7 +23,8 @@
     <script>
         jQuery(function ($) {
             $(".overlay").longDialog({
-                openButton: $(".open-dialog")
+                openButton: $(".open-dialog"),
+                mainContainer: $(".main")
             });
             
             
@@ -44,6 +45,7 @@
 
 <div class="overlay" id="dialog-1">
     <div class="dialog">
+        <img src="http://lorempixel.com/600/400">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dicta error similique omnis facere libero minus voluptates recusandae aspernatur molestiae maiores voluptate possimus ducimus quas totam nesciunt eius dolores minima.</p>
     </div>
 </div>
