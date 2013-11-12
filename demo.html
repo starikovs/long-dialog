@@ -31,9 +31,12 @@
             $("p").each(function () {
                 var parent = $(this).parent(), 
                     i = 15;
-                
+
                 while (i--) {
                     parent.append($(this).clone());
+                    if (i == 10 && parent.hasClass("sheet")) {
+                        $(".open-dialog").clone(true).appendTo(parent);
+                    }
                 }
             });
             
