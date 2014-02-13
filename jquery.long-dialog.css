@@ -26,10 +26,12 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 1000;
 }
 
 .dialog { 
     background: #fff;
+    color: #444;
     margin: 20px auto;
     padding: 20px;
     position: relative;
