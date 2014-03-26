@@ -22,7 +22,10 @@
             e.preventDefault();
         });
         
-        dialog.click(function () {
+        dialog.on("click keyup", function (e) {
+            if (typeof e.keyCode !== "undefined" && e.keyCode !== 27 /* Esc */) {
+                return;
+            }
             $(this).fadeOut("fast", function () {
                 body.css("overflow", "");
                 main.css("width", "");
